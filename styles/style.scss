@@ -338,7 +338,6 @@ section {
 .btn-container {
    display: flex;
    align-self: flex-start;
-
 }
 
 .main-btn {
@@ -349,6 +348,7 @@ section {
    display: flex;
    align-self: flex-start;
    align-items: center;
+   justify-content: space-between;
    overflow: hidden;
 
    &:hover {

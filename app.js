@@ -1,8 +1,3 @@
-// const sections = document.querySelectorAll('.section');
-// const sectBtns = document.querySelectorAll('.btns');
-// const sectBtn = document.querySelectorAll('.btn');
-// const allSections = document.querySelector('.container');
-
 (function () {
 	[...document.querySelectorAll('.btn')].forEach((button) => {
 		button.addEventListener('click', function () {

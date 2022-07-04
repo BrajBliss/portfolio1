@@ -407,6 +407,7 @@ section {
   display: flex;
   align-self: flex-start;
   align-items: center;
+  justify-content: space-between;
   overflow: hidden;
 }
 .main-btn:hover {
