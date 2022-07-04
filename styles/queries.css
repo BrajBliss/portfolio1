@@ -22,7 +22,8 @@
   .header-content .left-header .image {
     height: 90%;
     width: 45%;
-    margin: auto;
+    margin: 1rem auto;
+    padding: 0;
   }
   .header-content .right-header {
     grid-row: 1;
