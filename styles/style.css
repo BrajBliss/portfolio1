@@ -31,7 +31,7 @@
   --gray-2: #6c7983;
   --gray-3: #6c7983;
   --gray-4: #454e56;
-  --gray-5: #f8f8f8;
+  --gray-5: #f8f8f8c0;
   --gray-6: #12181b;
   --br-sm-2: 14px;
   --box-shadow-1: 0px 3px 15px rgba(0, 0, 0, 0.4);
@@ -99,7 +99,7 @@ section {
   transition: all 0.4 ease-in-out;
 }
 .buttons .active-btn i {
-  color: var(--white) !important;
+  color: white !important;
 }
 .buttons .btn {
   padding: 1rem;
@@ -120,7 +120,31 @@ section {
 }
 .buttons .btn i {
   font-size: 1.2rem;
-  color: var(--gray-2);
+  color: #b2becd;
+  pointer-events: none;
+}
+
+.theme-btn {
+  top: 5%;
+  right: 3%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: var(--grey-4);
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.1s ease-in-out;
+}
+.theme-btn:active {
+  transform: translateY(-3px);
+}
+.theme-btn i {
+  font-size: 1.4rem;
+  color: var(--grey-2);
   pointer-events: none;
 }
 
@@ -455,5 +479,5 @@ section {
   font-size: larger;
 }
 .links-container .link i {
-  margin-right: 1rem;
+  margin: 0 1rem 1rem 0;
 }/*# sourceMappingURL=style.css.map */
