@@ -31,7 +31,7 @@
       .right-header {
          grid-row: 1;
          width: 90%;
-         margin: 0 auto;
+         margin: 0.5rem auto;
 
 
          .name {
@@ -53,16 +53,22 @@
       margin-bottom: 1rem;
 
       h2 {
-         font-size: 4rem;
+         font-size: 2rem;
 
          .highlighted {
-            font-size: 4.6rem;
+            font-size: 3rem;
          }
       }
    }
 
    .links-container {
-      font-size: medium;
+      h3 {
+         font-size: 1.3rem;
+      }
+
+      .links {
+         font-size: 1rem;
+      }
    }
 
    .buttons {

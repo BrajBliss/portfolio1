@@ -27,7 +27,7 @@
   .header-content .right-header {
     grid-row: 1;
     width: 90%;
-    margin: 0 auto;
+    margin: 0.5rem auto;
   }
   .header-content .right-header .name {
     font-size: 1.6rem;
@@ -40,14 +40,17 @@
     margin-bottom: 1rem;
   }
   .main-title h2 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
   .main-title h2 .highlighted {
-    font-size: 4.6rem;
+    font-size: 3rem;
   }
 
-  .links-container {
-    font-size: medium;
+  .links-container h3 {
+    font-size: 1.3rem;
+  }
+  .links-container .links {
+    font-size: 1rem;
   }
 
   .buttons {
