@@ -24,6 +24,7 @@
          .image {
             height: 90%;
             width: 45%;
+            margin: 0 auto;
          }
       }
 
@@ -36,55 +37,32 @@
          .name {
             font-size: 1.6rem;
          }
+
+         .btn-container {
+            // margin: 0 auto;
+         }
       }
 
    }
 
    .sec2 {
-      padding: 45px;
+      padding: 90px;
    }
 
    .main-title {
-      text-align: center;
+      margin-bottom: 1rem;
 
       h2 {
-         position: relative;
-         text-transform: uppercase;
-         font-size: 3rem;
-         font-weight: 700;
-
-         span {
-            color: var(--secondary);
-         }
+         font-size: 4rem;
 
          .highlighted {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            color: var(--gray-5);
-            transition: all .4s ease-in-out;
-            z-index: -1;
-            font-weight: 800;
-            font-size: 4rem;
-            transform: translate(-50%, -50%);
+            font-size: 4.6rem;
          }
       }
    }
 
    .links-container {
       font-size: medium;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-
-      .link {
-         font-size: larger;
-
-         i {
-            margin: 0 1rem 1rem 0;
-         }
-      }
    }
 
    .buttons {
