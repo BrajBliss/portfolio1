@@ -22,7 +22,7 @@
   .header-content .left-header .image {
     height: 90%;
     width: 45%;
-    margin: 0 auto;
+    margin: 1rem auto;
   }
   .header-content .right-header {
     grid-row: 1;
@@ -32,10 +32,6 @@
   .header-content .right-header .name {
     font-size: 1.6rem;
   }
-  .sec2 {
-    padding: 90px;
-  }
-
   .main-title {
     margin-bottom: 1rem;
   }
@@ -47,7 +43,7 @@
   }
 
   .links-container h3 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   .links-container .links {
     font-size: 1rem;
