@@ -22,18 +22,18 @@
   .header-content .left-header .image {
     height: 90%;
     width: 45%;
-    margin: 0.6rem auto;
+    margin: auto;
   }
   .header-content .right-header {
     grid-row: 1;
     width: 90%;
-    margin: 0.5rem auto;
+    margin: auto;
   }
   .header-content .right-header .name {
     font-size: 1.6rem;
   }
   .contact-container {
-    padding-top: 32px;
+    padding-top: 50px;
   }
   .contact-container .main-title {
     margin-bottom: 1rem;

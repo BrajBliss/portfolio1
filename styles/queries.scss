@@ -24,14 +24,14 @@
          .image {
             height: 90%;
             width: 45%;
-            margin: 0.6rem auto;
+            margin: auto;
          }
       }
 
       .right-header {
          grid-row: 1;
          width: 90%;
-         margin: 0.5rem auto;
+         margin: auto;
 
 
          .name {
@@ -46,7 +46,7 @@
    }
 
    .contact-container {
-      padding-top: 32px;
+      padding-top: 50px;
 
       .main-title {
          margin-bottom: 1rem;
