@@ -29,13 +29,13 @@
     grid-row: 1;
     width: 90%;
     margin: auto;
-    padding-bottom: 1rem !important;
+    padding-bottom: 0 !important;
   }
   .header-content .right-header .name {
     font-size: 1.6rem;
   }
   .contact-container {
-    padding-top: 70px;
+    padding-top: 6rem;
   }
   .contact-container .main-title {
     margin-bottom: 1rem;
