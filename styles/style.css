@@ -23,7 +23,7 @@
 
 .light-mode {
   --primary: #FFFFFF;
-  --secondary: #F56692;
+  --secondary: #27AE60;
   --white: #454e56;
   --black: #000;
   --gray0: #f8f8f8;
@@ -33,6 +33,8 @@
   --gray-4: #454e56;
   --gray-5: #f8f8f8;
   --gray-6: #12181b;
+  --br-sm-2: 14px;
+  --box-shadow-1: 0px 3px 15px rgba(0, 0, 0, 0.4);
 }
 
 body {
@@ -77,21 +79,6 @@ section {
 }
 
 .sec2 {
-  display: none;
-  transform: translateY(0);
-}
-
-.sec3 {
-  display: none;
-  transform: translateY(0);
-}
-
-.sec4 {
-  display: none;
-  transform: translateY(0);
-}
-
-.sec5 {
   display: none;
   transform: translateY(0);
 }
@@ -399,7 +386,7 @@ section {
   overflow: hidden;
 }
 .main-btn:hover {
-  transition: all 0.4 ease-in-out;
+  transition: all 0.7s ease-in-out;
   filter: drop-shadow(5px 5px 10px var(--black));
 }
 .main-btn .btn-text {
@@ -427,4 +414,46 @@ section {
   height: 100%;
   background-color: var(--secondary);
   transform: translateX(0);
+}
+
+.sec2 {
+  padding: 90px;
+}
+
+.main-title {
+  text-align: center;
+}
+.main-title h2 {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.main-title h2 span {
+  color: var(--secondary);
+}
+.main-title h2 .highlighted {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: var(--gray-5);
+  transition: all 0.4s ease-in-out;
+  z-index: -1;
+  font-weight: 800;
+  font-size: 4.6rem;
+  transform: translate(-50%, -50%);
+}
+
+.links-container {
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.links-container .link {
+  font-size: larger;
+}
+.links-container .link i {
+  margin-right: 1rem;
 }/*# sourceMappingURL=style.css.map */
