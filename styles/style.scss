@@ -429,6 +429,17 @@ section {
    align-items: center;
    justify-content: center;
 
+
+   .link:link,
+   .link:visited {
+      transition: all .4s ease-in-out;
+   }
+
+   .link:hover,
+   .link:active {
+      color: #27AE60;
+   }
+
    .link {
       font-size: larger;
 
