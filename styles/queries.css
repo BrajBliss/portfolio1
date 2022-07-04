@@ -22,7 +22,7 @@
   .header-content .left-header .image {
     height: 90%;
     width: 45%;
-    margin: 1rem auto;
+    margin: 0.6rem auto;
   }
   .header-content .right-header {
     grid-row: 1;
@@ -32,20 +32,22 @@
   .header-content .right-header .name {
     font-size: 1.6rem;
   }
-  .main-title {
+  .contact-container {
+    padding-top: 32px;
+  }
+  .contact-container .main-title {
     margin-bottom: 1rem;
   }
-  .main-title h2 {
+  .contact-container .main-title h2 {
     font-size: 2rem;
   }
-  .main-title h2 .highlighted {
+  .contact-container .main-title h2 .highlighted {
     font-size: 2rem;
   }
-
-  .links-container h3 {
+  .contact-container .links-container h3 {
     font-size: 1.1rem;
   }
-  .links-container .links {
+  .contact-container .links-container .links {
     font-size: 1rem;
   }
 

@@ -24,7 +24,7 @@
          .image {
             height: 90%;
             width: 45%;
-            margin: 1rem auto;
+            margin: 0.6rem auto;
          }
       }
 
@@ -45,27 +45,29 @@
 
    }
 
-   .sec2 {}
+   .contact-container {
+      padding-top: 32px;
 
-   .main-title {
-      margin-bottom: 1rem;
+      .main-title {
+         margin-bottom: 1rem;
 
-      h2 {
-         font-size: 2rem;
-
-         .highlighted {
+         h2 {
             font-size: 2rem;
+
+            .highlighted {
+               font-size: 2rem;
+            }
          }
       }
-   }
 
-   .links-container {
-      h3 {
-         font-size: 1.1rem;
-      }
+      .links-container {
+         h3 {
+            font-size: 1.1rem;
+         }
 
-      .links {
-         font-size: 1rem;
+         .links {
+            font-size: 1rem;
+         }
       }
    }
 
